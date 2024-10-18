@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Noto Sans", sans-serif;
+       
+    }
+    body{
+        background-color: #FFD9EC;
+
+    }
+    header{
+        height: 15vh;
+        background-color: #FF69B4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        @media (max-width: 770px){
+            flex-direction: column;
+            height: 30vh;
+           }
+    }
+    .BoxLogo{
+        width: 25vw;
+        display: flex;
+        align-items: center;
+        @media (max-width: 770px){
+            flex-direction: column;  
+            width: 100%;
+          }
+      
+        img{
+            width: 6.5vw;
+            @media (max-width: 1000px) {
+            width: 7.5vw;   
+            }
+            @media (max-width: 770px){
+                width: 12vw;
+            }
+            @media (max-width: 500px){
+                width: 15vw;
+            }
+        }
+        h1{
+            color: white;
+            font-size: 1.7vw;
+            @media (max-width: 770px){
+                font-size: 2.5vw;
+            }
+            @media (max-width: 500px){
+                font-size: 3.1vw;
+            }
+        }
+    }
+    nav{
+        width: 40vw;
+        @media (max-width: 770px){
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.5vw;
+
+            @media (max-width: 770px){
+                justify-content: space-evenly;
+                font-size: 2.3vw;
+            }
+            @media (max-width: 500px){
+                font-size: 3vw;
+            }
+            a{
+                color: white;
+            }
+            
+        }
+    
+}
+ .primeiro{
+    margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    div{
+        width: 75%;
+        font-size: 1.3vw;
+        display: flex;
+        align-items: center;
+        @media (max-width: 770px){
+            font-size: 2.5vw;
+        }
+        @media (max-width: 770px){
+            font-size: 2.1vw;
+        }
+    img{
+        margin-left: 5.3vw;
+        width: 40.5vw;
+        @media (max-width: 1000px) {
+            width: 30.0vw;   
+            }
+    }
+    }
+    
+ }
+
+ .segundo{
+    margin-top: 20px;
+    height: 27vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    div{
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+ 
+    p{
+        margin-left: 5.3vw;
+        font-size: 1.3vw;
+        color: white;
+        @media (max-width: 770px){
+            font-size: 2.5vw;
+        }
+        @media (max-width: 770px){
+            font-size: 2.1vw;
+        }
+    }
+    img{
+        width: 40.5vw;
+        @media (max-width: 1000px) {
+            width: 30.5vw;   
+            }
+    }
+}
+ }
+.terceiro{
+    margin-top: 4.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+ 
+    img{
+        width: 15.5vw; 
+        margin-left: 30px;
+ }
+}
+
+footer {
+    height: 15vh;
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.7vw;
+ 
+ 
+    div{
+        margin-top: 0.5vw;
+        display: flex;
+        align-items: center;
+    
+    p{
+        font-size: 1.0vw;
+        color: white;
+    }
+        
+    img{
+         width: 3.1vw;
+
+         
+    } 
+    div{
+        
+        display: flex;
+        align-items: center;
+        margin-left: 16.4vw;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+   .outubro{
+    margin-left: 15.4vw;
+    width: 4.7vw;
+   }
+    
+}
+}
